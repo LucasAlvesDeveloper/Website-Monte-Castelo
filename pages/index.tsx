@@ -1,10 +1,16 @@
-import styled from 'styled-components'
+import { ThemeProvider } from "styled-components"
 
-const Title = styled.h1`
-  color: red;
-  font-size: 50px;
-`
+import { MainTheme } from "styles/themes"
+import Header from "components/organisms/Header"
 
 export default function Home() {
-  return <Title>My page</Title>
+	return (
+		<ThemeProvider theme={MainTheme}>
+			<Header />
+
+			<main>
+
+			</main>
+		</ThemeProvider>
+	) 
 }

@@ -3,9 +3,11 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
+    "@styled-icons/fa-brands": "^10.38.0",
     "next": "latest",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -18,6 +20,8 @@
     "@types/react-dom": "17.0.3",
     "@types/styled-components": "5.1.9",
     "babel-plugin-styled-components": "^1.12.0",
-    "typescript": "4.2.4"
+    "eslint": "^8.10.0",
+    "eslint-config-next": "12.1.0",
+    "typescript": "latest"
   }
 }
